@@ -1,0 +1,126 @@
+
+body{
+  color: #222222;
+   box-sizing: border-box;
+}
+html{
+  font-size: 75%; 
+}
+
+
+.navbar-nav li a{
+  color: #000; 
+}
+
+header{
+  background: url(img/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130vh;
+}
+.child_header{
+  transform: translate(100%, 100%);
+  text-align: right;
+}
+.child_header h1::after{
+  content: '';
+  background: #000;
+  width: 100px;
+  height: 2px;
+  display: inline-block;
+  margin:0 auto;
+}
+/* =============slider=========== */
+.container_slider{
+  max-width: 960px;
+  width: 95%;
+  margin: auto;
+}
+
+#slider img{
+  height: 40rem;
+  margin: 3rem 0;
+}
+#slider span{
+  padding: 2rem;
+  border-radius: 50%;
+  box-shadow:inset 1px 2px 0px 1px #fff;
+}
+/* =============bannar2=========== */
+.bannar2{
+  background: #efefef;
+  padding: 4rem 0;
+}
+.bannar2 h5{
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* =============bannar3=========== */
+.bannar3 img{
+  border-radius: 50%;
+}
+/* =============bannar4=========== */
+.bannar4{
+  background: #efefef;
+  padding: 4rem 0;
+}
+/* =============bannar5=========== */
+.bannar5{
+  padding: 4rem 0;
+}
+.bannar5 .bannar5p::after{
+  content: '';
+  background: #f00;
+  width: 70px;
+  height: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.bannar5 ul li {
+  display: inline-block;
+  margin: .5rem;
+}
+/* =============bannar7=========== */
+.bannar7{
+  padding: 40PX 0;
+  background:linear-gradient(#8b8b8b9b,#8b8b8b78),
+   url(img/bannar_7_bg.jpg);
+  color: #fff;
+}
+.br7_row{
+  background: #8b8b8b;
+}
+.bannar7 h6::after{
+  content: '';
+  background: #4d4c4b;
+  width: 60px;
+  height: 3px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.bannar7 .row::after{
+  content: '';
+  background: #e64a19;
+  width: 60px;
+  height: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+/* =============bannar8=========== */
+.br8_text{
+  margin-top: 14%;
+}
+
+/* =============bannar9=========== */
+.inner_br9{
+background: #efefef;
+}
+.bannar9 .col{
+  border-left: 4px solid #000;
+  margin-left: 30px;
+}

@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bootstrap_Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Bootstra Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- হেডার এরিয়া -->
+    <header>
+      <div class="header_area">
+        <div class="container">
+          <nav class="navbar navbar-expand-md pt-4 navbar-light">
+            <div class="container-fluid">              
+            <div class="logo_area navbar-brand"><a class="navbar-brand " href="#">unicorn</a></div>              
+          <div id="main_manu" class="collapse
+           navbar-collapse ">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="#">home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">about</a></li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#">dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">dropdown_menu</a></li>
+                  <li><a class="dropdown-item" href="#">dropdown_menu</a></li>
+                  <li><a class="dropdown-item" href="#">dropdown_menu</a></li>
+                  <li><a class="dropdown-item" href="#">dropdown_menu</a></li>
+                  <li><a class="dropdown-item" href="#">dropdown_menu</a></li>
+                </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">stories</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">hello</a></li>
+              </ul>
+             </div> 
+            <!-- এখানে সার্চ মেনু আর মোবাইল মেন্যু -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_manu"><span
+                class="navbar-toggler-icon"></span></button>
+               <form action="#" class="d-flex">
+                  <input type="text" placeholder="Search Here" class="form-control me-2">
+                  <button class="btn btn-primary">search</button>
+                </form>
+         
+            </div>
+          </nav>
+
+          <div class="child_header w-50 ">
+            <h1 class="fw-bolder">STORYTELLER</h1>
+            <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible
+            vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed
+            and divided by arches into stiff sections.</p>
+            <button class="btn border-dark px-5">read the rest</button>
+          </div>
+        </div>
+      </div>
+    </header>
+<!-- ================Slider================ -->
+<section id="slider" class="text-center carousel slide carousel-fade bg-success" data-bs-ride="carousel" data-bs-touch="true">
+<div class="container_slider">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100 img-thumbnail" src="img/bannar_5_img01.jpg" alt="">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 img-thumbnail" src="img/bannar_5_img02.jpg" alt="">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 img-thumbnail" src="img/bannar_5_img03.jpg" alt="">
+      </div> 
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev"><span class="carousel-control-prev-icon bg-dark"></span></button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next"><span class="carousel-control-next-icon bg-dark"></span></button>
+  </div>
+  </div>
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#slider" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#slider" data-bs-slide-to="2"></button>
+  </div>
+</section>
+
+<!-- ================bannar1================ -->
+
+  <section class="bannar1 text-center">
+    <div class="container my-5">
+      <img class="" src="img/bannar_1_logo.jpg" alt="">
+      <h2>Who & Why</h2>
+      <p class="w-75 my-4 m-auto">The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by
+      everyone, and so the door to this room was often kept closed in the evening. But Gregor found it easy to give up having
+      the door open, he had, after all, often failed to make use of it when it was open and, without the family having noticed
+      it, lain in his room in its darkest corner. One time, though, the charwoman left the door.</p>
+    </div>
+  </section>
+
+  <!-- ================bannar2================ -->
+
+<section class="bannar2">
+  <div class="container">
+    <div class="row">
+    <div class="col-sm-4">
+      <img src="img/bannar_2_logo01.jpg" alt="logo">
+      <h5>An Wow Feature</h5>
+      <p class="w-75 m-auto">The gentlemen who rented the room would sometimes take their evening meal at home in the living.</p>
+    </div>
+    <div class="col-sm-4">
+       <img src="img/bannar_2_logo02.jpg" alt="logo">
+      <h5>A Beautiful Feature</h5>
+    <p>The gentlemen who rented the room would sometimes take their evening meal at home in the living.</p>
+    </div>
+    <div class="col-sm-4">
+       <img src="img/bannar_2_logo03.jpg" alt="logo">
+      <h5>An Amazing Feature</h5>
+    <p>The gentlemen who rented the room would sometimes take their evening meal at home in the living.</p>   
+   </div>
+  </div>
+  </div>
+</section>
+
+<!-- ================bannar3================ -->
+
+<section class="bannar3 py-5">
+  <div class="container">
+    <h1 class="text-center fs-4">Featured Articles</h1>
+    <p class="w-75 text-center m-auto mb-5">The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by
+    everyone, and so the door to this room was often kept closed in the</p>
+    <div class="row float-startv">
+      <div class="col-sm-4">
+        <div class="child bg-dark text-white px-3 py-4 my-2">
+          <p>comic</p>
+          <h3 class="mb-5">A million ways to die in the wild wild wild west</h3>
+            <img class="float-start me-3" src="img/bannar_3_logo01.jpg" alt="">
+            <h5>jimmy jefferson</h5>
+            <h6>21/08/2013</h6>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="child bg-dark text-white px-3 py-4 my-2">
+          <p>comic</p>
+          <h3 class="mb-5">A million ways to die in the wild wild wild west</h3>
+          <img class="float-start me-3" src="img/bannar_3_logo02.jpg" alt="">
+          <h5>jimmy jefferson</h5>
+          <h6>21/08/2013</h6>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="child bg-dark text-white px-3 py-4 my-2">
+          <p>comic</p>
+          <h3 class="mb-5">A million ways to die in the wild wild wild west</h3>
+          <img class="float-start me-3" src="img/bannar_3_logo01.jpg" alt="">
+          <h5>jimmy jefferson</h5>
+          <h6>21/08/2013</h6>
+        </div>        
+      </div>        
+    </div>
+    <i class="bi bi-chevron-right" style="float: right;"></i>
+  </div>
+</section>
+
+<!-- ================bannar4================ -->
+
+<section class="bannar4 text-center">
+  <div class="container">    
+    <div class="row">
+      <h5 class="mb-5">Clients</h5>
+      <img class="w-75 m-auto img" src="img/bannar_4_logo.jpg" alt="LOGO4">
+    </div>          
+  </div>
+</section>
+
+<!-- ===============bannar5================= -->
+<section class="bannar5 text-center">
+  <div class="container">    
+    <div class="row">
+      <h1>Portfolio & Screenshots</h1>
+      <p class="bannar5p w-75 m-auto my-4">The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by
+      everyone, and so the door to this room was often kept closed in the</p>
+      <ul>
+        <li class="nav-item"><a class="nav-link" href="#">Art</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Mystery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Illusion</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Travel</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Paintings</a></li>
+      </ul>             
+  </div>
+<!-- ব্যানার ফাইভ পোর্টফলিও ইমেজ এরিয়া -->
+  <div class="row row-cols-md-4">
+    <div class="col">
+        <img src="img/bannar_5_img01.jpg" alt="">
+      </div>
+    <div class="col">
+        <img src="img/bannar_5_img02.jpg" alt="">
+      </div>
+    <div class="col">
+        <img src="img/bannar_5_img03.jpg" alt="">
+      </div>
+    <div class="col">
+        <img src="img/bannar_5_img04.jpg" alt="">
+      </div>
+    </div>
+    </div>
+  
+  <div class="row text-center bg-dark text-white py-5 mt-5">
+    <span class="fs-1">"</span>
+    <p class="w-50 m-auto mb-2">Happiness cannot be traveled to, owned, earned, or worn. It is the spiritual experience of living every minute with
+    love, grace & gratitude.</p>
+    <h6>Denis Waitley</h6>
+  </div>
+</section>
+
+<!-- ===============bannar6================= -->
+
+<section class="bannar6 text-center my-5">
+  <div class="container">
+    <h1>Team Members</h1>
+  <p class="w-75 m-auto my-4">The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by
+    everyone, and so the door to this room was often kept closed in the</p>
+    <div class="row row-cols-sm-4">
+      <div class="col-6">
+        <img class="my-4" src="img/bannar_6_img01.jpg" alt="logo">
+        <h5>James Philly</h5>
+        <h6>Lead Developer</h6>
+      </div>
+      <div class="col-6">
+        <img class="my-4" src="img/bannar_6_img02.jpg" alt="logo">
+        <h5>James Philly</h5>
+        <h6>Lead Developer</h6>
+      </div>
+      <div class="col-6">
+        <img class="my-4" src="img/bannar_6_img03.jpg" alt="logo">
+        <h5>James Philly</h5>
+        <h6>Lead Developer</h6>
+      </div>
+      <div class="col-6">
+        <img class="my-4" src="img/bannar_6_img04.jpg" alt="logo">
+        <h5>James Philly</h5>
+        <h6>Lead Developer</h6>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===============bannar7================= -->
+<section class="bannar7 text-center">
+  <div class="container">
+    <h1>Facts & Numbers</h1>
+    <div class="br7_row row row-cols-sm-2 w-50 m-auto pt-5 my-5">
+      <div class="col">
+        <h6>110</h6>
+        <p>successful projects</p>
+      </div>
+      <div class="col">
+        <h6>25</h6>
+        <p>awesome clients</p>
+      </div>
+      <div class="col">
+        <h6>30</h6>
+        <p>open source plugins</p>
+      </div>
+      <div class="col">
+        <h6>13</h6>
+        <p>successful projects</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===============bannar8================= -->
+
+<section class="bannar8 text-center">
+  <div class="container">
+    <div class="row row-cols-sm-2 my-5">
+      <div class="col-12 br8_text">
+        <h6>Travel / 21st March, 2014</h6>
+        <h4>A New Product Is Coming</h4>
+        <p class="w-75 m-auto">The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that
+        would be extremely strained and suspicious as in fifteen years of service Gregor had never.</p>
+      </div>
+      <div class="col-12">
+        <img class="img-fluid" src="img/bannar_8_img01.jpg" alt="">
+      </div>
+      <div class="col-12">
+        <img class="img-fluid" src="img/bannar_8_img02.jpg" alt="">
+      </div>
+      <div class="col-12 br8_text">
+        <h6>Travel / 21st March, 2014</h6>
+        <h4>A New Product Is Coming</h4>
+        <p class="w-75 m-auto">The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But
+          that
+          would be extremely strained and suspicious as in fifteen years of service Gregor had never.</p>      
+      </div>      
+      <div class="col-12 br8_text">
+        <h6>Travel / 21st March, 2014</h6>
+        <h4>A New Product Is Coming</h4>
+        <p class="w-75 m-auto">The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But
+          that
+          would be extremely strained and suspicious as in fifteen years of service Gregor had never.</p>      
+      </div>      
+      <div class="col-12">
+        <img class="img-fluid" src="img/bannar_8_img03.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===============bannar9================= -->
+
+<section class="bannar9">
+  <div class="inner_br9">
+  <div class="container my-5 py-5">
+    <div class="row">
+      <div class="col">
+        <h5>Another Day In Paradise</h5>
+        <h6>Travel / 21st March, 2014</h6>
+      </div>
+      <div class="col">
+        <h5>Jimmy’s New Book on Aliens</h5>
+        <h6>Travel / 21st March, 2014</h6>
+      </div>
+      <div class="col">
+        <h5>Another Day In Paradise</h5>
+        <h6>Travel / 21st March, 2014</h6>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container text-center mb-5">
+    <div class="">
+      <img src="img/bannar_3_logo01.jpg" alt="">
+      <p class="w-50 m-auto my-4">Happiness cannot be traveled to, owned, earned, or worn. It is the spiritual experience of living every minute with love, grace & gratitude.</p>
+      <h6>@loveless</h6>
+    </div>
+  </div>
+</section>
+
+<!-- ===============bannar10 Footer================= -->
+
+<footer class="bannar10 bg-dark text-secondary pt-5">
+<div class="container">
+  <div class="row">
+    <div class="col ">
+      <h4 class="text-white">Unicorn</h4>
+      <p class="w-75">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible
+      vermin. He lay on his</p>
+      <form action="#" class="form w-75">
+        <input class="border-0 border-bottom bg-dark border-secondary" type="email" placeholder="email">
+        <input class="border-0 border-bottom mx-3 bg-dark border-secondary" type="text" placeholder="subject">
+        <textarea class="form-control border-0 border-bottom border-secondary mt-2 bg-dark" name="Message" placeholder="Message"></textarea>
+        <input class="border-0 mt-5 text-secondary bg-dark" type="submit" value="Send">
+      </form>      
+    </div>
+    <div class="col">
+    <div class="row ">
+    <div class="col">
+      <h4 class="text-white ">Links</h4>
+      <h6 class="lh-base">Home <br>About<br>Services<br>Menu<br>Restaurants<br>Work Hours<br>Call Hours</h6>
+    </div>
+    <div class="col">
+      <h4 class="text-white">friends</h4>
+      <h6 class="lh-base">Home<br>About<br>Services<br>Menu<br>Restaurants<br>Work</h6>
+    </div>
+    <div class="col">
+      <h4 class="text-white">social</h4>
+      <h6 class="lh-base">Home <br>About<br>Services<br>Menu<br>Restaurants<br>Work Hours<br>Call Hours</h6>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+</footer>
+
+<div class="copyright bg-dark text-secondary">
+<div class="container overflow-hidden border-top py-3">
+<div class="left-copyright float-start">
+  <p>One morning, when Gregor Samsa woke from troubled dreams, he found
+  © 2015 Your Awesome Company</p>
+</div>
+<div class="right-copyright float-end">
+  <li class="d-inline-block ps-4">TERMS</li>
+  <li class="d-inline-block ps-4">Privacy</li>
+  <li class="d-inline-block ps-4">Policy</li>
+  <li class="d-inline-block ps-4">Contact</li>
+  <li class="d-inline-block ps-4">Job</li>
+</div>
+</div>
+</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
